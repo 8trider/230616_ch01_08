@@ -92,3 +92,10 @@ st.write(f"""
     * ![이미지에 대한 설명]({l2})
     * [![이미지에 대한 설명](https://cdn.pixabay.com/photo/2023/04/08/18/01/flower-7909902_640.jpg)](https://naver.com)
 """)
+
+st.divider()
+st.subheader("인용")
+st.write("""
+>독도는 한국땅
+>Just Do it
+""")
