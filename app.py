@@ -79,3 +79,16 @@ st.write("""
     |자바|개초보|
     
 """)
+
+# 링크
+st.divider()
+st.subheader("링크")
+l1 = "https://naver.com"
+l2 = "https://cdn.pixabay.com/photo/2023/04/08/18/01/flower-7909902_640.jpg"
+st.write(f"""
+    * [표시할 텍스트](https://naver.com)
+    * [표시할 텍스트]({l1})
+    * ![이미지에 대한 설명](https://cdn.pixabay.com/photo/2023/04/08/18/01/flower-7909902_640.jpg)
+    * ![이미지에 대한 설명]({l2})
+    * [![이미지에 대한 설명](https://cdn.pixabay.com/photo/2023/04/08/18/01/flower-7909902_640.jpg)](https://naver.com)
+""")
